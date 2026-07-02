@@ -1,0 +1,2 @@
+samples,avg_returned_count,less_than_top_k_count,empty_retrieval_count,parse_failed_candidate_count,parse_failed_query_count,topk_evidence_recall,topk_evidence_precision,topk_gold_title_hit,topk_all_support_hit,avg_latency_seconds
+500,19.952,20,0,0,0,0.849,0.08513051255589955,0.988,0.71,0.3331388387680054

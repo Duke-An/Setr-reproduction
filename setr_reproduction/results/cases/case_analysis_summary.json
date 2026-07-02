@@ -1,0 +1,29 @@
+{
+  "case_count": 5,
+  "case_ids": [
+    "case_1_setr_iri_success_baseline_fail",
+    "case_2_reranker_success_setr_fail",
+    "case_3_candidate_pool_missing_gold",
+    "case_4_setr_fewer_passages_correct",
+    "case_5_parse_or_redundancy_issue"
+  ],
+  "categories": [
+    "SetR-CoT + IRI 成功，Top-5 / reranker 失败",
+    "reranker 成功，SetR 失败",
+    "三者都失败，原因是 top-20 候选池没召回完整 gold evidence",
+    "SetR 选更少 passage 但答案正确",
+    "Qwen3-14B 输出格式错误或选择冗余 passage"
+  ],
+  "qids": [
+    "5a78ae8b5542990784727730",
+    "5a727e1b5542991f9a20c497",
+    "5a7344e95542991f9a20c6ce",
+    "5a71231a5542994082a3e5c4",
+    "5a77b0395542997042120ae1"
+  ],
+  "outputs": {
+    "case_analysis_md": "D:\\Projects\\NLPFinal\\setr_reproduction\\results\\cases\\case_analysis.md",
+    "case_analysis_jsonl": "D:\\Projects\\NLPFinal\\setr_reproduction\\results\\cases\\case_analysis_cases.jsonl",
+    "summary_json": "D:\\Projects\\NLPFinal\\setr_reproduction\\results\\cases\\case_analysis_summary.json"
+  }
+}

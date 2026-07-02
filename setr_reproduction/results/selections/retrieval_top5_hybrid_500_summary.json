@@ -1,0 +1,17 @@
+{
+  "samples": 500,
+  "method": "retrieval_only_top5",
+  "candidate_pool": "dify_hybrid_top20_500",
+  "selected_k_requested": 5,
+  "avg_selected_count": 5.0,
+  "min_selected_count": 5,
+  "max_selected_count": 5,
+  "not_equal_selected_k_count": 0,
+  "empty_selection_count": 0,
+  "parse_failed_selected_count": 0,
+  "parse_failed_query_count": 0,
+  "selected_evidence_recall": 0.859,
+  "selected_evidence_precision": 0.3436,
+  "selected_gold_title_hit": 0.984,
+  "selected_all_support_hit": 0.734
+}

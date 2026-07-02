@@ -1,0 +1,2 @@
+﻿samples,method,candidate_pool,selected_k_requested,avg_selected_count,min_selected_count,max_selected_count,not_equal_selected_k_count,empty_selection_count,parse_failed_selected_count,parse_failed_query_count,selected_evidence_recall,selected_evidence_precision,selected_gold_title_hit,selected_all_support_hit
+500,retrieval_only_top5,dify_hybrid_top20_500,5,5.0,5,5,0,0,0,0,0.859,0.3436,0.984,0.734

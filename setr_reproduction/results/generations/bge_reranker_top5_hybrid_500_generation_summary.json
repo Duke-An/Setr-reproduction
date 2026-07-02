@@ -1,0 +1,14 @@
+{
+  "method": "bge_reranker_top5",
+  "samples": 500,
+  "model": "Qwen3-14B",
+  "parse_success_count": 500,
+  "parse_success_rate": 1.0,
+  "generation_failure_count": 0,
+  "generation_failure_rate": 0.0,
+  "avg_selected_count": 5.0,
+  "avg_context_word_count": 380.714,
+  "avg_context_char_count": 2324.374,
+  "context_truncated_count": 0,
+  "avg_generation_latency_seconds": 0.44383271741867064
+}

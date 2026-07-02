@@ -1,0 +1,23 @@
+{
+  "samples": 500,
+  "method": "llm_listwise_top5",
+  "candidate_pool": "dify_hybrid_top20_500",
+  "model": "Qwen3-14B",
+  "selected_k_requested": 5,
+  "avg_selected_count": 5.0,
+  "min_selected_count": 5,
+  "max_selected_count": 5,
+  "not_equal_selected_k_count": 0,
+  "empty_selection_count": 0,
+  "parse_success_count": 500,
+  "parse_success_rate": 1.0,
+  "fallback_count": 0,
+  "fallback_rate": 0.0,
+  "parse_failed_selected_count": 0,
+  "parse_failed_query_count": 0,
+  "selected_evidence_recall": 0.893,
+  "selected_evidence_precision": 0.3572000000000001,
+  "selected_gold_title_hit": 0.986,
+  "selected_all_support_hit": 0.8,
+  "avg_selection_latency_seconds": 2.0620585045814512
+}

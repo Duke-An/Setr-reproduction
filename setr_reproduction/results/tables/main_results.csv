@@ -1,0 +1,7 @@
+﻿method,method_label,samples,answer_em,answer_f1,answer_contains,gold_title_hit,evidence_recall,evidence_precision,all_support_hit,avg_selected_passages,avg_context_words,avg_context_chars,selection_parse_failure_rate,selection_fallback_rate,generation_parse_failure_rate,generation_failure_rate,avg_selection_latency_seconds,avg_generation_latency_seconds,avg_total_latency_seconds
+retrieval_top5,Retrieval Top-5,500,0.456,0.5931,0.54,0.984,0.859,0.3436,0.734,5.0,348.81,2127.882,0.0,0.0,0.0,0.0,0.0,0.4348,0.4348
+bge_reranker_top5,BGE-Reranker Top-5,500,0.488,0.6297,0.582,0.996,0.898,0.3592,0.8,5.0,380.714,2324.374,0.0,0.0,0.0,0.0,6.1786,0.4438,6.6225
+llm_listwise_top5,LLM Listwise Top-5,500,0.504,0.6477,0.592,0.986,0.893,0.3572,0.8,5.0,372.654,2272.47,0.0,0.0,0.0,0.0,2.0621,0.4468,2.5088
+setr_selection_only,SetR-Selection only,500,0.508,0.6602,0.602,0.986,0.855,0.8279,0.724,2.308,165.376,1007.172,0.008,0.008,0.0,0.0,1.0287,0.3401,1.3688
+setr_cot,SetR-CoT,500,0.502,0.6496,0.59,0.984,0.858,0.8349,0.732,2.266,163.722,997.93,0.008,0.008,0.0,0.0,2.122,0.341,2.463
+setr_cot_iri,SetR-CoT + IRI,500,0.506,0.6582,0.6,0.99,0.834,0.8391,0.678,2.224,160.936,980.462,0.004,0.004,0.0,0.0,4.5989,0.3382,4.9371

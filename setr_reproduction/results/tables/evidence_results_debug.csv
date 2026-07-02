@@ -1,0 +1,6 @@
+﻿method,method_label,samples,gold_title_hit,evidence_recall,evidence_precision,all_support_hit,avg_selected_passages
+retrieval_top5,Retrieval Top-5,3,1.0,1.0,0.4,1.0,5.0
+bge_reranker_top5,BGE-Reranker Top-5,3,1.0,1.0,0.4,1.0,5.0
+llm_listwise_top5,LLM Listwise Top-5,3,1.0,1.0,0.4,1.0,5.0
+setr_selection_only,SetR-Selection only,3,1.0,1.0,1.0,1.0,2.0
+setr_cot,SetR-CoT,3,1.0,1.0,1.0,1.0,2.0

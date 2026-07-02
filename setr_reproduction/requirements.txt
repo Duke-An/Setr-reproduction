@@ -1,0 +1,9 @@
+# 默认实验只使用 Python 标准库。
+#
+# 可选：启用 BGE-Reranker baseline 时安装：
+# FlagEmbedding
+# torch
+#
+# 可选：后续扩展 dense retrieval 时安装：
+# sentence-transformers
+# faiss-cpu

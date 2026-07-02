@@ -1,0 +1,4 @@
+﻿order,method,method_label,samples,answer_em,answer_f1,answer_contains,evidence_recall,evidence_precision,all_support_hit,avg_selected_passages,avg_context_words,selection_parse_failure_rate,selection_fallback_rate,avg_total_latency_seconds
+1,setr_selection_only,SetR-Selection only,500,0.508,0.6602,0.602,0.855,0.8279,0.724,2.308,165.376,0.008,0.008,1.3688
+2,setr_cot,SetR-CoT,500,0.502,0.6496,0.59,0.858,0.8349,0.732,2.266,163.722,0.008,0.008,2.463
+3,setr_cot_iri,SetR-CoT + IRI,500,0.506,0.6582,0.6,0.834,0.8391,0.678,2.224,160.936,0.004,0.004,4.9371

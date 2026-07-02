@@ -1,0 +1,19 @@
+{
+  "data_path": "data/sample/hotpot_style_sample.jsonl",
+  "output_dir": "results",
+  "top_pool_size": 6,
+  "final_k": 3,
+  "setr_max_set_size": 3,
+  "enable_neural_reranker": false,
+  "neural_reranker_model": "BAAI/bge-reranker-base",
+  "bm25": {
+    "k1": 1.5,
+    "b": 0.75
+  },
+  "set_selector": {
+    "relevance_weight": 0.55,
+    "coverage_weight": 0.35,
+    "redundancy_weight": 0.10,
+    "min_gain": 0.02
+  }
+}

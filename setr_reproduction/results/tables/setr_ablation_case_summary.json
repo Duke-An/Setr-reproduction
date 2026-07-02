@@ -1,0 +1,26 @@
+{
+  "samples": 500,
+  "methods": [
+    "setr_selection_only",
+    "setr_cot",
+    "setr_cot_iri"
+  ],
+  "tag_counts": {
+    "cot_helped_answer_em": 5,
+    "cot_helped_evidence": 18,
+    "cot_hurt_answer_em": 8,
+    "cot_hurt_evidence": 14,
+    "iri_helped_answer_em": 7,
+    "iri_helped_evidence": 17,
+    "iri_hurt_answer_em": 5,
+    "iri_hurt_evidence": 44,
+    "same_or_minor_change": 411
+  },
+  "outputs": {
+    "ablation": "D:\\Projects\\NLPFinal\\setr_reproduction\\results\\tables\\setr_ablation.csv",
+    "delta": "D:\\Projects\\NLPFinal\\setr_reproduction\\results\\tables\\setr_ablation_delta.csv",
+    "cases": "D:\\Projects\\NLPFinal\\setr_reproduction\\results\\tables\\setr_ablation_cases.jsonl",
+    "case_summary": "D:\\Projects\\NLPFinal\\setr_reproduction\\results\\tables\\setr_ablation_case_summary.json",
+    "summary_md": "D:\\Projects\\NLPFinal\\setr_reproduction\\results\\tables\\setr_ablation_summary.md"
+  }
+}

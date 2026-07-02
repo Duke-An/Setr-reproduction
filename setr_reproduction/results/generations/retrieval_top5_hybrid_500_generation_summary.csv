@@ -1,0 +1,2 @@
+﻿method,samples,model,parse_success_count,parse_success_rate,generation_failure_count,generation_failure_rate,avg_selected_count,avg_context_word_count,avg_context_char_count,context_truncated_count,avg_generation_latency_seconds
+retrieval_top5,500,Qwen3-14B,500,1.0,0,0.0,5.0,348.81,2127.882,0,0.43480343294143675

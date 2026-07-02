@@ -1,0 +1,7 @@
+﻿method,method_label,samples,gold_title_hit,evidence_recall,evidence_precision,all_support_hit,avg_selected_passages
+retrieval_top5,Retrieval Top-5,500,0.984,0.859,0.3436,0.734,5.0
+bge_reranker_top5,BGE-Reranker Top-5,500,0.996,0.898,0.3592,0.8,5.0
+llm_listwise_top5,LLM Listwise Top-5,500,0.986,0.893,0.3572,0.8,5.0
+setr_selection_only,SetR-Selection only,500,0.986,0.855,0.8279,0.724,2.308
+setr_cot,SetR-CoT,500,0.984,0.858,0.8349,0.732,2.266
+setr_cot_iri,SetR-CoT + IRI,500,0.99,0.834,0.8391,0.678,2.224

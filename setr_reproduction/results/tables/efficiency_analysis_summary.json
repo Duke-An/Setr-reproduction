@@ -1,0 +1,27 @@
+{
+  "samples_per_method": {
+    "retrieval_top5": 500,
+    "bge_reranker_top5": 500,
+    "llm_listwise_top5": 500,
+    "setr_selection_only": 500,
+    "setr_cot": 500,
+    "setr_cot_iri": 500
+  },
+  "validation": {
+    "top5_avg_selected_passages_checked": true,
+    "setr_avg_selected_passages_checked": true,
+    "passage_token_pearson_correlation": 0.9956,
+    "warnings": []
+  },
+  "figures": {
+    "avg_passages": "D:\\Projects\\NLPFinal\\setr_reproduction\\results\\figures\\avg_passages.png",
+    "avg_tokens": "D:\\Projects\\NLPFinal\\setr_reproduction\\results\\figures\\avg_tokens.png",
+    "avg_total_latency": "D:\\Projects\\NLPFinal\\setr_reproduction\\results\\figures\\avg_total_latency.png",
+    "f1_vs_tokens": "D:\\Projects\\NLPFinal\\setr_reproduction\\results\\figures\\f1_vs_tokens.png"
+  },
+  "outputs": {
+    "efficiency_results": "D:\\Projects\\NLPFinal\\setr_reproduction\\results\\tables\\efficiency_results.csv",
+    "summary_md": "D:\\Projects\\NLPFinal\\setr_reproduction\\results\\tables\\efficiency_analysis.md",
+    "summary_json": "D:\\Projects\\NLPFinal\\setr_reproduction\\results\\tables\\efficiency_analysis_summary.json"
+  }
+}

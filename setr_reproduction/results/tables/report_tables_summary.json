@@ -1,0 +1,26 @@
+{
+  "validation": {
+    "main_result_rows": 6,
+    "ablation_rows": 3,
+    "efficiency_rows": 6,
+    "case_rows": 5,
+    "method_sets_consistent": true,
+    "tables": [
+      "main_experiment",
+      "setr_ablation",
+      "efficiency_analysis",
+      "case_analysis"
+    ]
+  },
+  "outputs": {
+    "report_tables_md": "D:\\Projects\\NLPFinal\\setr_reproduction\\results\\tables\\report_tables.md",
+    "report_tables_summary_json": "D:\\Projects\\NLPFinal\\setr_reproduction\\results\\tables\\report_tables_summary.json",
+    "report_tables_xlsx": "not generated; optional output skipped because Node / artifact-tool runtime is unavailable in this workspace"
+  },
+  "sources": {
+    "main": "D:\\Projects\\NLPFinal\\setr_reproduction\\results\\tables\\main_results.csv",
+    "ablation": "D:\\Projects\\NLPFinal\\setr_reproduction\\results\\tables\\setr_ablation.csv",
+    "efficiency": "D:\\Projects\\NLPFinal\\setr_reproduction\\results\\tables\\efficiency_results.csv",
+    "cases": "D:\\Projects\\NLPFinal\\setr_reproduction\\results\\cases\\case_analysis_cases.jsonl"
+  }
+}

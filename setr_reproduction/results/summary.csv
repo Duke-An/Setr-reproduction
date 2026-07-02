@@ -1,0 +1,6 @@
+method,samples,evidence_coverage,all_support_hit,answer_in_context,answer_probe_f1,avg_selected_count
+bm25_topk,6,0.8333,0.6667,1,1.0,3
+lexical_rerank,6,0.9167,0.8333,1,1.0,3
+mmr_selection,6,0.8333,0.6667,1,1.0,3
+setr_no_bridge_ablation,6,0.8333,0.6667,1,1.0,2.8333
+setr_style_selection,6,0.9167,0.8333,1,1.0,3

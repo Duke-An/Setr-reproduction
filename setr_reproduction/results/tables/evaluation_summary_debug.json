@@ -1,0 +1,29 @@
+{
+  "evaluated_methods": [
+    "retrieval_top5",
+    "bge_reranker_top5",
+    "llm_listwise_top5",
+    "setr_selection_only",
+    "setr_cot"
+  ],
+  "skipped_methods": [
+    {
+      "method": "setr_cot_iri",
+      "reason": "missing generation file: D:\\Projects\\NLPFinal\\setr_reproduction\\results\\generations\\setr_cot_iri_hybrid_500_answers.jsonl"
+    }
+  ],
+  "samples_per_method": {
+    "retrieval_top5": 3,
+    "bge_reranker_top5": 3,
+    "llm_listwise_top5": 3,
+    "setr_selection_only": 3,
+    "setr_cot": 3
+  },
+  "outputs": {
+    "main": "D:\\Projects\\NLPFinal\\setr_reproduction\\results\\tables\\main_results_debug.csv",
+    "evidence": "D:\\Projects\\NLPFinal\\setr_reproduction\\results\\tables\\evidence_results_debug.csv",
+    "efficiency": "D:\\Projects\\NLPFinal\\setr_reproduction\\results\\tables\\efficiency_results_debug.csv",
+    "per_sample": "D:\\Projects\\NLPFinal\\setr_reproduction\\results\\tables\\per_sample_evaluation_debug.jsonl",
+    "summary": "D:\\Projects\\NLPFinal\\setr_reproduction\\results\\tables\\evaluation_summary_debug.json"
+  }
+}

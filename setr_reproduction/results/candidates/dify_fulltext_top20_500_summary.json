@@ -1,0 +1,13 @@
+{
+  "samples": 500,
+  "avg_returned_count": 19.952,
+  "less_than_top_k_count": 20,
+  "empty_retrieval_count": 0,
+  "parse_failed_candidate_count": 0,
+  "parse_failed_query_count": 0,
+  "topk_evidence_recall": 0.849,
+  "topk_evidence_precision": 0.08513051255589955,
+  "topk_gold_title_hit": 0.988,
+  "topk_all_support_hit": 0.71,
+  "avg_latency_seconds": 0.3331388387680054
+}

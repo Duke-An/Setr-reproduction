@@ -1,0 +1,14 @@
+{
+  "samples": 500,
+  "avg_returned_count": 9.972,
+  "min_returned_count": 2,
+  "max_returned_count": 10,
+  "less_than_top_k_count": 500,
+  "empty_retrieval_count": 0,
+  "parse_failed_candidate_count": 0,
+  "parse_failed_query_count": 0,
+  "topk_evidence_recall": 1.0,
+  "topk_evidence_precision": 0.20220000000000002,
+  "topk_gold_title_hit": 1.0,
+  "topk_all_support_hit": 1.0
+}

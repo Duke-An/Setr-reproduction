@@ -1,0 +1,4 @@
+﻿comparison,comparison_label,delta_answer_em,delta_answer_f1,delta_answer_contains,delta_evidence_recall,delta_evidence_precision,delta_all_support_hit,delta_avg_selected_passages,delta_avg_context_words,delta_selection_parse_failure_rate,delta_selection_fallback_rate,delta_avg_total_latency_seconds
+cot_minus_selection_only,SetR-CoT - SetR-Selection only,-0.006,-0.0106,-0.012,0.003,0.007,0.008,-0.042,-1.654,0.0,0.0,1.0942
+iri_minus_cot,SetR-CoT + IRI - SetR-CoT,0.004,0.0086,0.01,-0.024,0.0042,-0.054,-0.042,-2.786,-0.004,-0.004,2.4741
+iri_minus_selection_only,SetR-CoT + IRI - SetR-Selection only,-0.002,-0.002,-0.002,-0.021,0.0112,-0.046,-0.084,-4.44,-0.004,-0.004,3.5683

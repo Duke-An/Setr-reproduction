@@ -1,0 +1,5 @@
+﻿candidate_pool,pool_type,samples,avg_returned_count,less_than_top_k_count,empty_retrieval_count,parse_failed_candidate_count,parse_failed_query_count,topk_evidence_recall,topk_evidence_precision,topk_gold_title_hit,topk_all_support_hit,avg_latency_seconds,role
+Candidate Context,Diagnostic / Oracle-style,500,9.972,500,0,0,0,1.0,0.20220000000000002,1.0,1.0,,诊断 SetR / rerank 在 gold evidence 已进入候选池时的选择能力
+Dify Vector Top-20,Global Corpus Retrieval,500,19.89,46,0,0,0,0.906,0.09112518059855522,0.996,0.816,0.4254583420753479,真实全库语义检索候选池，对照组
+Dify Full-text Top-20,Global Corpus Retrieval,500,19.952,20,0,0,0,0.849,0.08513051255589955,0.988,0.71,0.3331388387680054,真实全库关键词 / 全文检索候选池，对照组
+Dify Hybrid Top-20,Global Corpus Retrieval,500,19.906,39,0,0,0,0.922,0.09265558995528037,0.998,0.846,0.9701043834686279,后续主实验固定候选池，语义 0.7 + 关键词 0.3

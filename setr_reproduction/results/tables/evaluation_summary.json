@@ -1,0 +1,26 @@
+{
+  "evaluated_methods": [
+    "retrieval_top5",
+    "bge_reranker_top5",
+    "llm_listwise_top5",
+    "setr_selection_only",
+    "setr_cot",
+    "setr_cot_iri"
+  ],
+  "skipped_methods": [],
+  "samples_per_method": {
+    "retrieval_top5": 500,
+    "bge_reranker_top5": 500,
+    "llm_listwise_top5": 500,
+    "setr_selection_only": 500,
+    "setr_cot": 500,
+    "setr_cot_iri": 500
+  },
+  "outputs": {
+    "main": "D:\\Projects\\NLPFinal\\setr_reproduction\\results\\tables\\main_results.csv",
+    "evidence": "D:\\Projects\\NLPFinal\\setr_reproduction\\results\\tables\\evidence_results.csv",
+    "efficiency": "D:\\Projects\\NLPFinal\\setr_reproduction\\results\\tables\\efficiency_results.csv",
+    "per_sample": "D:\\Projects\\NLPFinal\\setr_reproduction\\results\\tables\\per_sample_evaluation.jsonl",
+    "summary": "D:\\Projects\\NLPFinal\\setr_reproduction\\results\\tables\\evaluation_summary.json"
+  }
+}

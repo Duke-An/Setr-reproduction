@@ -1,0 +1,2 @@
+﻿method,samples,model,parse_success_count,parse_success_rate,generation_failure_count,generation_failure_rate,avg_selected_count,avg_context_word_count,avg_context_char_count,context_truncated_count,avg_generation_latency_seconds
+bge_reranker_top5,500,Qwen3-14B,500,1.0,0,0.0,5.0,380.714,2324.374,0,0.44383271741867064

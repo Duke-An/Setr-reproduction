@@ -1,0 +1,14 @@
+{
+  "method": "setr_cot_iri",
+  "samples": 500,
+  "model": "Qwen3-14B",
+  "parse_success_count": 500,
+  "parse_success_rate": 1.0,
+  "generation_failure_count": 0,
+  "generation_failure_rate": 0.0,
+  "avg_selected_count": 2.224,
+  "avg_context_word_count": 160.936,
+  "avg_context_char_count": 980.462,
+  "context_truncated_count": 0,
+  "avg_generation_latency_seconds": 0.3381821813583374
+}
